@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: add API documentation
+Available methods are `add/:url`, `add/:expiring_days/:url`, and `lookup/:guid`
 
 ## Development
 
