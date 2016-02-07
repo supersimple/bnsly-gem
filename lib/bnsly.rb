@@ -5,7 +5,7 @@ module Bnsly
   require 'json'
   require 'open-uri'
   
-  API_URL = "http://localhost:7171"
+  API_URL = "http://bnsly.co"
   
   def self.add(url, expires=false)
     url = URI.encode_www_form_component(url)
